@@ -4,11 +4,11 @@
 
 # Lab 03: Dynamic Routing Configurations (RIP & EIGRP)
 
-## 📌 Overview
+## Overview
 
 This lab focuses on implementing dynamic routing protocols within a complex network topology. We explored two primary Distance Vector protocols: **RIP (Routing Information Protocol)** and **EIGRP (Enhanced Interior Gateway Routing Protocol)** to enable communication across multiple subnets.
 
-## 🛠️ Network Topology
+## Network Topology
 
 The setup consists of the following components for each model:
 
@@ -17,7 +17,7 @@ The setup consists of the following components for each model:
 * **3 PCs:** End devices used to verify end-to-end connectivity.
 * **1 Laptop:** Used specifically in the RIP configuration to perform **Console Configuration** on Router 0.
 
-## 🚀 Key Configurations
+## Key Configurations
 
 ### 1. RIP (Routing Information Protocol)
 
@@ -33,21 +33,11 @@ We implemented EIGRP as a more advanced alternative to RIP.
 * **Autonomous System (AS):** All routers were assigned the same AS number to establish adjacency.
 * **Convergence:** Observed faster convergence times compared to RIP.
 
-## 🧪 Verification
+## Verification
 
 To ensure the configurations were successful, the following steps were taken:
 
 1. **Ping Test:** Successful pings between PCs in different networks (e.g., PC0 in Network A to PC2 in Network C).
-
-## 📂 Files in this Repository
-
-* `RIP.pkt`: The Packet Tracer file for the RIP setup.
-* `EIGRP.pkt`: The Packet Tracer file for the EIGRP setup.
-
----
-
-This `README.md` is structured specifically for an OSPF lab where you connected **Routers directly to PCs using Cross-Over cables** and **Routers to each other via Serial DCE cables** (no switches).
-
 ---
 
 # Lab 3(C): Dynamic Routing with OSPF (Single Area)
